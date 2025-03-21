@@ -43,15 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="19_March_2025\Delegate_Demo\Understanding_Delagate.cs" />
-    <Compile Include="19_March_2025\FlowManagerFor_19_March_25.cs" />
-    <Compile Include="20_March_2025\01_Class_And_Object\Understanding_ClassAndObject.cs" />
-    <Compile Include="20_March_2025\02_Constructores_Destructor\Constructor_Demo\ConstructorDemo.cs" />
-    <Compile Include="20_March_2025\02_Constructores_Destructor\Constructor_Demo\CopyConstructorDemo.cs" />
-    <Compile Include="20_March_2025\02_Constructores_Destructor\Constructor_Demo\Understanding_Constructors.cs" />
-    <Compile Include="20_March_2025\02_Constructores_Destructor\Destructor_Demo\DestructorDemo.cs" />
-    <Compile Include="20_March_2025\02_Constructores_Destructor\Destructor_Demo\Understand_Destructors.cs" />
-    <Compile Include="20_March_2025\FlowManagerFor_20_March_25.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
