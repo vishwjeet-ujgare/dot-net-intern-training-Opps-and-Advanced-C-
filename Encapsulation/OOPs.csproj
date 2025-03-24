@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9AEA922E-FC36-4496-828F-16BD6B764E14}</ProjectGuid>
+    <ProjectGuid>{98364B41-A72C-4D0C-913E-FC484C6FE7D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Csharp_Oops_Advanced</RootNamespace>
-    <AssemblyName>Csharp_Oops_Advanced</AssemblyName>
+    <RootNamespace>Encapsulation</RootNamespace>
+    <AssemblyName>Encapsulation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Encapsulation\EncapsulationDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Encapsulation\OOPs.csproj">
-      <Project>{98364b41-a72c-4d0c-913e-fc484c6fe7d9}</Project>
-      <Name>OOPs</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
