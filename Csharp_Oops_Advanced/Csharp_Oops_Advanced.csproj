@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Custome-Exception-Demo\Call-Custome-Exception\ThrowOddNumbeParaConExceptionDemo.cs" />
+    <Compile Include="Custome-Exception-Demo\Call-Custome-Exception\ThrowOddNumberExceptionDemo.cs" />
+    <Compile Include="Custome-Exception-Demo\Cutomer-Exception-Classed\OddNumbeParaConException.cs" />
+    <Compile Include="Custome-Exception-Demo\Cutomer-Exception-Classed\OddNumberException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="try-catch\Fianally-Block\FinallyBlockWithCatchDemo.cs" />
+    <Compile Include="try-catch\Fianally-Block\FinallyBlockWithoutCatchDemo.cs" />
+    <Compile Include="try-catch\MultipleCatchBlockDemo.cs" />
+    <Compile Include="try-catch\TryCatchExceptionClassProperties.cs" />
+    <Compile Include="try-catch\TryCatchWithGenericCatchBlock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
